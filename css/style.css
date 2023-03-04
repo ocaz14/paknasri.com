@@ -19,6 +19,12 @@ a{
 p{
     line-height: 1.75;
 }
+ol{
+    padding-inline-start: 0px;
+}
+.soal-child ol{
+    padding-inline-start: 40px;
+}
 li{
     line-height: 1.6;
 }
@@ -49,7 +55,7 @@ li{
     background-color: var(--text-color-black);
 }
 .soal, .pembahasan, .page-title{
-    padding: 20px 40px;
+    padding: 5px 50px;
 }
 .page-title{
     background-color: var(--background-grey);
