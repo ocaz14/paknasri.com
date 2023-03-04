@@ -1,0 +1,147 @@
+:root{
+    /* --background-black: #343541; */
+    /* --text-color-white: #D9D9E3; */
+    --background-black: rgba(32,33,35,1);
+    --text-color-white: #ECECF1;
+
+    --background-grey: #F7F7F8;
+    --text-color-black:  #343541;
+}
+body{
+    margin: 0;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.75;
+}
+li{
+    line-height: 1.6;
+}
+.header-side{
+    background-color: var(--background-black);
+    height: 100vh;
+    color: var(--text-color-white);
+    position: fixed;
+    width: 244px;
+    padding: 8px;
+}
+.logo{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav a{
+    text-align: center;
+    padding: 10px 15px;
+    color: var(--text-color-white);
+}
+.nav a:hover{
+    background-color: var(--text-color-black);
+}
+.soal, .pembahasan, .page-title{
+    padding: 20px 40px;
+}
+.page-title{
+    background-color: var(--background-grey);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid #d9d9e3;
+}
+/* .soal{
+    background-color: white;
+} */
+.pembahasan{
+    background-color: var(--background-grey);
+    border: 1px solid #d9d9e3;
+}
+.cont-content{
+    width: 100%;
+}
+.content{
+    margin-left: 260px;
+}
+.menu-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    visibility: hidden;
+}
+.header-top{
+    background-color: var(--background-black);
+    height: 30px;
+    color: var(--text-color-white);
+    position: fixed;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.dropdown-botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.dropdown-botton-child{
+    background-color: rgb(169, 169, 169);
+    width: 20px;
+    height: 2px; 
+}
+.dropdown-close{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    visibility: hidden;
+    cursor: pointer;
+
+}
+.logo-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .header-side{
+        visibility: hidden;
+        margin-top: 46px;
+        height: 400px;
+    }
+    .header-top{
+        visibility: visible;
+    }
+    .menu-button{
+        visibility: visible;
+    }
+    .content{
+        margin-left: 0px;
+        margin-top: 46px;
+    }
+    body{
+        flex-direction: column;
+    }
+}
