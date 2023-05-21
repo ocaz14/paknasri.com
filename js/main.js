@@ -18,6 +18,8 @@ var side_menu =
 "<div class='nav'>"+
 "    <a href='/index'><div class='nav-child'>HOME</div></a>"+
 "    <a href='/blog'><div class='nav-child'>BLOG</div></a>"+
+"    <a href='/jawab'><div class='nav-child'>JAWAB</div></a>"+
+"    <a href='/un'><div class='nav-child'>UN</div></a>"+
 "</div>"+
 "</div>";  
 dropdown_menu_id.innerHTML = side_menu;
