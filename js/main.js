@@ -25,7 +25,7 @@ var side_menu =
 dropdown_menu_id.innerHTML = side_menu;
 
 var menu_button_id = document.getElementById("menu_button")
-var menu_button = 
+var menu_button_innerHTML = 
 "<div onclick='dropdown_open()' class='dropdown-botton' id='dropdown_botton'>"+
 "   <div class='dropdown-botton-child'></div>"+
 "   <div class='dropdown-botton-child'></div>"+
@@ -34,7 +34,7 @@ var menu_button =
 "<div onclick='dropdown_close()' class='dropdown-close' id='dropdown_close'>"+
 "   &#x2716;"+
 "</div>";
-menu_button_id.innerHTML = menu_button;
+menu_button_id.innerHTML = menu_button_innerHTML;
 
 
 
