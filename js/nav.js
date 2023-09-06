@@ -4,3 +4,12 @@ var my_nav_innerHTML =
 "<div class='header-top'><div class='logo-top'>pakNasri.com</div></div>";
 
 document.getElementById("my_nav").innerHTML = my_nav_innerHTML;
+
+var themeColor = document.getElementById("theme-color");
+if(themeColor){
+    themeColor.content = " #111111";
+}
+var icon = document.getElementById("icon");
+if(icon){
+    icon.href = "/img/logo.svg";
+}
