@@ -5,5 +5,6 @@ var list_arr = [
     ["berat_002", "/jawab/berat/1-gram-berapa-ons", "Cara menghitung 1 gram berapa ons dengan mudah"],
     ["berat_003", "/jawab/berat/10-ons-berapa-kg", "Cara menghitung 10 ons berapa kg dengan mudah"],
     ["berat_004", "/jawab/berat/1000-gram-berapa-kg", "Cara menghitung 1000 gram berapa kg dengan mudah"],
-    
+    ["berat_005", "/jawab/berat/20-ons-berapa-kg", "Cara menghitung 20 ons berapa kg dengan mudah"],
+    ["berat_005", "/jawab/berat/500-ons-berapa-kg", "Cara menghitung 500 ons berapa kg dengan mudah"],
 ]
